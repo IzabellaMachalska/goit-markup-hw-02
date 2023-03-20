@@ -1,7 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #e5e5e5;
+  color: #212121;
 }
 a {
   text-decoration: none;
+}
+:root {
+  --background: #e5e5e5;
+  --background-page-color: #ffffff;
+  --background-box-primary: #2f303a;
+  --background-box-secondary: #f5f4fa;
+  --text-color-primary: #212121;
+  --text-color-secondary: #757575;
+  --text-color-blue: #2196f3;
 }
