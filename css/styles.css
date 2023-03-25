@@ -8,8 +8,9 @@
   --text-color-secondary: #757575;
   --text-color-blue: #2196f3;
   --text-color-light: #ffffff;
-  --text-color-contact-footer: rgba(14, 2, 2, 0.6);
-  /* --text-color-contact-footer: rgba(255, 255, 255, 0.6); */
+  --text-color-contact-footer: rgba(255, 255, 255, 0.6);
+  /* --text-color-contact-footer: rgba(14, 2, 2, 0.6); nie widać na jasnym tle- do testów */
+  
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -66,11 +67,16 @@ body {
 .button-headline {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  align-items: center;
-  display: flex;
+  line-height: 1.9;
   background: var(--background-button);
   color: var(--text-color-light);
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 .headline-feature {
   color: var(--text-color-primary);
@@ -123,10 +129,6 @@ body {
   line-height: 1.7;
   text-decoration: none;
 }
-/* .link-contact-footer:hover,
-.link-contact-footer:focus {
-  color: var(--text-color-blue); */
-/* } */
 
 .link-address-footer {
   color: var(--text-color-light);
@@ -135,11 +137,8 @@ body {
   line-height: 1.7;
   text-decoration: none;
 }
-/* .link-address-footer:hover,
-.link-address-footer:focus {
-  color: var(--text-color-blue);
-} */
-.button-main-por {
+ 
+.button-primary-portfolio {
   color: var(--text-color-primary);
   background: var(--background-box-secondary);
   font-weight: 500;
@@ -147,6 +146,12 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+}
+.button-primary-portfolio:hover,
+.button-primary-portfolio:focus {
+  background: var(--background-button);
+  color: var(--text-color-light);
 }
 .headline-main-por {
   color: var(--text-color-primary);
