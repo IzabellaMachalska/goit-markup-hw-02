@@ -10,7 +10,7 @@
   --text-color-secondary: #757575;
   --text-color-blue: #2196f3;
   --text-color-light: #ffffff;
-  --text-color-contact-footer: #ffffff;
+  --text-color-contact-footer: rgba(255, 255, 255, 0.6);
 }
 * {
   margin: 0;
@@ -40,6 +40,10 @@ body {
 .logo-color {
   color: var(--text-color-primary);
 }
+.logo-color-footer {
+  color: var(--text-color-light);
+}
+
 .link-contact {
   color: var(--text-color-secondary);
   font-weight: 500;
@@ -59,6 +63,7 @@ body {
   color: var(--text-color-blue);
 }
 .headline-primary {
+  color: var(--text-color-light);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -138,4 +143,13 @@ body {
   color: var(--text-color-secondary);
   font-size: 16px;
   line-height: 1.9;
+}
+.dark {
+  background-color: var(--background-box-primary);
+}
+.light-secondary {
+  background-color: var(--background-box-secondary);
+}
+.light-primary {
+  background-color: var(--background-page-color);
 }
