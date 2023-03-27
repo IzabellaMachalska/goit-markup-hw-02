@@ -112,7 +112,7 @@ body {
   color: var(--text-color-contact-footer);
   line-height: 1.7;
 }
-.link-contact-footer-tel {
+.link-contact-footer-email {
   text-decoration-line: underline;
 }
 .link-address-footer {
